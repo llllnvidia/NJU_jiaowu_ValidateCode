@@ -1,0 +1,9 @@
+<table>
+{% for i in range(20) %}
+<tr>
+    <td><img src="./image/{{ i }}_1"></td>
+    <td><img src="./image/{{ i }}_2"></td>
+    <td><p>{{ vcode[i] }}</p></td>
+</tr>
+{% endfor %}
+</table>
